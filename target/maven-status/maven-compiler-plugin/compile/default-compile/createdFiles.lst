@@ -1,0 +1,6 @@
+swe\assign\student\dao\UserDao.class
+swe\assign\student\StudentFormApplication.class
+swe\assign\student\controller\CustomErrorController.class
+swe\assign\student\model\UserInfo.class
+swe\assign\student\service\UserService.class
+swe\assign\student\controller\StudentController.class

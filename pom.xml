@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>swe.assign</groupId>
-	<artifactId>studentForm</artifactId>
+	<artifactId>studentForm3</artifactId>
 	<!--<version>0.0.1-SNAPSHOT</version>-->
-	<packaging>war</packaging>
-	<name>studentForm</name>
+	<packaging>jar</packaging>
+	<name>studentForm3</name>
 	<description>swe assignment</description>
 	<properties>
 		<java.version>17</java.version>
@@ -81,7 +81,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>studentForm</finalName>
+		<finalName>studentForm3</finalName>
 	</build>
 
 </project>
