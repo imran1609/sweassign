@@ -17,6 +17,7 @@ public class UserService {
     @Autowired
     UserDao userDao;
 
+    //Method to save the user info into the database.
     public void saveUserInfo(UserInfo userInfo){
         try {
 
@@ -30,6 +31,7 @@ public class UserService {
     }
 
 
+    //Method to get all the users from the database.
     public String listUser(){
         List<UserInfo> userList = new ArrayList<>();
         try {
