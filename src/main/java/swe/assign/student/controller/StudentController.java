@@ -38,6 +38,7 @@ public class StudentController {
 
     @CrossOrigin
     @RequestMapping(value = {"/listUser"}, method = RequestMethod.GET, produces = "application/json")
+    /* method to list users*/
     public ResponseEntity<String> listUser() {
 
         try {
