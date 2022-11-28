@@ -48,6 +48,7 @@ public class UserService {
 
     }
 
+    /* method to convert to json. */
     static String userListToJson(List<UserInfo> userList){
 
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
